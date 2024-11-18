@@ -1,0 +1,87 @@
+[
+    {
+        "expression": "Prime",
+        "variables": 1,
+        "template": "{0} prime"
+    },
+    {
+        "expression": "minFac_prime",
+        "variables": 1,
+        "template": "any minimum factor is prime"
+    },
+    {
+        "expression": "∃",
+        "variables": 0,
+        "template": "there exists"
+    },
+    {
+        "expression": "∧",
+        "variables": 0,
+        "template": "and"
+    },
+    {
+        "expression": "factorial_pos",
+        "variables": 1,
+        "template": "any factorial is positive"
+    },
+    {
+        "expression": "succ_lt_succ",
+        "variables": 0,
+        "template": " "
+    },
+    {
+        "expression": "ne_of_gt",
+        "variables": 0,
+        "template": " "
+    },
+    {
+        "expression": "minFac",
+        "variables": 1,
+        "template": "a minimum factor of {0}"
+    },    
+    {
+        "expression": "dvd_factorial",
+        "variables": 0,
+        "template": " "
+    },
+    {
+        "expression": "minFac_pos",
+        "variables": 1,
+        "template": " "
+    },
+    {
+        "expression": "minFac_dvd",
+        "variables": 1,
+        "template": " "
+    },
+    {
+        "expression": "dvd_add_iff_right",
+        "variables": 1,
+        "template": "a number only divides the sum if it divides each term"
+    },
+    {
+        "expression": "not_dvd_one",
+        "variables": 0,
+        "template": "primes do not divide 1"
+    },
+    {
+        "expression": "¬BddAbove",
+        "variables": 1,
+        "template": "{0} is not bounded above"
+    },
+    {
+        "expression": "<|",
+        "variables": 0,
+        "template": " because "
+    },
+    {
+        "expression": "le_of_not_ge",
+        "variables": 0,
+        "template": "assume {s1, negate_inequality}."
+    },
+    {
+        "expression": "not_bddAbove_iff",
+        "variables": 0,
+        "template": "{s1, find_set} is not bounded above if and only if, for every x, there exists y ∈ {s1, find_set} such that x < y."
+    }
+]
